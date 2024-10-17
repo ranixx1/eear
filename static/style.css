@@ -1,0 +1,90 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cor de fundo cinza claro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar personalizada */
+.navbar-custom {
+    background-color: #3b5998;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    width: 65%;
+    margin-left: auto;
+}
+
+.navbar-custom a {
+    color: white;
+    margin-right: 20px;
+}
+
+/* Barra de pesquisa aprimorada */
+.search-bar {
+    background-color: #e6e6fa; /* Cor lavanda para a nova barra de pesquisa */
+    border-radius: 20px;
+    padding: 5px 7px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.search-bar input {
+    border: none;
+    background: none;
+    outline: none;
+    margin-left: 10px;
+    width: 100%; /* Define o comprimento em 50% da largura original */
+}
+
+.search-bar i {
+    color: #3b5998;
+}
+
+/* Estilo de conteúdo centralizado */
+.content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content a {
+    color: black;
+    margin: 0 20px;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+/* Cards e notícias */
+.card, .sidebar-section {
+    background-color: #fff; /* Fundo branco para os cards e notícias */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-bottom: 20px;
+}
+
+/* Sidebar */
+.sidebar-section {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+    border-radius: 10px;
+}
+
+/* Margem e padding para os elementos */
+.card img {
+    width: 100%;
+}
+
+.news-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.news-link {
+    color: #007bff;
+}
+
